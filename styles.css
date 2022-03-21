@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 12px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+section {
+  padding: 12px;
+  margin-bottom: 2em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+
+pre {
+  background: white;
+  padding: 12px;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+p.wc {
+  border: 1px dashed rgb(24, 24, 153);
+  background: lightskyblue;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+p.info {
+  margin: 0;
+}
+
+p.info::before {
+  content: "ℹ️ ";
+}

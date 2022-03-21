@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Simple Todo App by hybrids library</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="src/index.js" defer></script>
+  </head>
+  <body>
+    <h1>&lt;app-store&gt;, &lt;app-form&gt;, &lt;app-todos&gt;</h1>
+    <p>
+      This is an example of the web component created with the
+      <a href="https://hybrids.js.org">hybrids</a> library.
+    </p>
+    <p>
+      It shows how to use <strong>parent</strong> factory to create simple
+      application with shared state between custom elements.
+    </p>
+    <section>
+      <pre>
+&lt;app-store todos='["One", "Two"]'&gt;
+  &lt;app-todos&gt;&lt;/app-todos&gt;
+  &lt;app-form&gt;&lt;/app-form&gt;
+&lt;/app-store&gt;
+      </pre>
+      <p class="wc">
+        <app-store todos='["One", "Two"]'>
+          <app-todos></app-todos>
+          <app-form></app-form>
+        </app-store>
+      </p>
+      <p class="info">
+        Use form to add todo to the list. Click on todo on list to remove it.
+        Change default todos in &ltapp-store&gt; element in developer tools.
+      </p>
+    </section>
+  </body>
+</html>

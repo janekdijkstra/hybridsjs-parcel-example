@@ -1,0 +1,23 @@
+{
+  "name": "app-todos-web-components-built-with-hybrids-library",
+  "version": "1.0.0",
+  "description": "Simple todos example from hybrids docs, a library for creating web components from plain object and pure functions!",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "hybrids": "6.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "shadow dom",
+    "hybrids",
+    "todos",
+    "custom elements",
+    "web components"
+  ]
+}
